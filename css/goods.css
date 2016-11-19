@@ -1,0 +1,115 @@
+.mod1{
+	width:100%;
+	overflow:hidden;
+}
+#goods{
+	width:100%;
+	height:3.6rem;
+}
+.mod2{
+	width:100%;
+	height: auto;
+	margin:0.3rem auto 0rem;
+	background-color:#FFF;
+	overflow:hidden;
+}
+.mod2 .count-down{
+	width: 100%;
+    height: auto;
+    padding: .3rem .3rem .2rem;
+    overflow:hidden;
+}
+.mod2 .count-down .left .title span {
+    width: .08rem;
+    height: .08rem;
+    display: inline-block;
+    background-color: black;
+    border-radius: .1rem;
+    margin: 0 .12rem .05rem .12rem;
+    }
+ .mod2 .count-down .left .title{
+ 	font-size:.3rem;
+ 	color:#000;
+ }
+ .mod2 .count-down .left .counting, .mod2 .count-down .left .title{
+ 	display:inline-block;
+ }
+  .mod2 .count-down .left .counting span{
+  	font-size:.25rem;
+  	line-height: .4rem;
+  	display:inline-block;
+  	padding:0 .06rem;
+  	border-radius: .06rem;
+  	background-color:#000;
+  	margin:auto .05rem;
+  	color:white;
+  }
+.mod2 .count-down .right{
+	color:#666;
+	display: inline-block;
+    float: right;
+    line-height: 1.5;
+    font-size: .3rem;
+    overflow:hidden;
+    float:right;
+    text-align: right;
+}
+.mod2 .count-down .right img{
+	vertical-align: middle;
+	width:50%;
+	height:.22rem;
+	margin-top:-.02rem;
+}
+.mod2 .show-goods{
+	padding:.1rem 0 .16rem .3rem;
+}
+.mod2 .show-goods .goods-content{
+	overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+#goods-wrap,.swiper-wrapper{
+	width:100%;
+	height: 100%;
+}
+#goods-wrap img{
+	width:100%;
+	height: 100%;
+}
+#goods-wrap .swiper-slide{
+	 width: 1.8rem;
+    height: 2.5rem;
+    margin-right: .2rem;
+    display: inline-block;
+}
+#goods-wrap .swiper-slide a{
+	width:100%;
+	height: 100%;
+	display: inline-block;
+}
+#goods-wrap img{
+	width:1.5rem;
+	height: 1.5rem;
+}
+#goods-wrap p{
+	width:100%;
+	color: #666;
+    font-size: .16rem;
+    margin: .15rem 0 .05rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#goods-wrap span{
+	font-size: .26rem;
+    color: #F25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mod3 .col-2-row-1{
+    border-bottom:1px solid #e5e5e5;
+    position: relative;
+    height:50%;
+    overflow:hidden;
+}
